@@ -1,0 +1,14 @@
+to illusrate the law of large numbers, which is a that describes the result of performing the same experiment a large number of times, and as the number of trials 
+increases, its mean grows closer to the average.
+These are results of flipping a coin, with the amount of flips increasing on every trial until 100 million
+-----------------------------------------------------------------------------------------------------------------------------
+Iterations:  10  | Heads:  3 |  Tails:  7  |  Heads-Percentage= 30.0  | Tails-Percentage= 70.0
+Iterations:  100  | Heads:  52 |  Tails:  48  |  Heads-Percentage= 52.0  | Tails-Percentage= 48.0
+Iterations:  1000  | Heads:  510 |  Tails:  490  |  Heads-Percentage= 51.0  | Tails-Percentage= 49.0
+Iterations:  10000  | Heads:  5008 |  Tails:  4992  |  Heads-Percentage= 50.08  | Tails-Percentage= 49.92
+Iterations:  100000  | Heads:  50066 |  Tails:  49934  |  Heads-Percentage= 50.066  | Tails-Percentage= 49.934
+Iterations:  1000000  | Heads:  500306 |  Tails:  499694  |  Heads-Percentage= 50.031  | Tails-Percentage= 49.969
+Iterations:  10000000  | Heads:  4998910 |  Tails:  5001090  |  Heads-Percentage= 49.989  | Tails-Percentage= 50.011
+Iterations:  100000000  | Heads:  50005039 |  Tails:  49994961  |  Heads-Percentage= 50.005  | Tails-Percentage= 49.995
+------------------------------------------------------------------------------------------------------------------------------
+As the Iterations increase the percentage of each coin side gets closer and closer to 50%
