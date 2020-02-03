@@ -1,0 +1,10 @@
+Iteration:  1  |  Equation:  y= 0.9811998921978874
+Iteration:  2  |  Equation:  y= 1.9387741528266755
+Iteration:  3  |  Equation:  y= 3.014384486176575
+Iteration:  4  |  Equation:  y= 4.0100246396311565
+Iteration:  5  |  Equation:  y= 4.990641574402722
+Iteration:  6  |  Equation:  y= 5.980998622642298
+Iteration:  7  |  Equation:  y= 6.919480697217863
+Iteration:  8  |  Equation:  y= 8.017517740337587
+Iteration:  9  |  Equation:  y= 9.02798770047658
+Iteration:  10 |  Equation:  y= 9.94373405180947
