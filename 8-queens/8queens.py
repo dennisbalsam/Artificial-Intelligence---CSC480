@@ -4,24 +4,29 @@ such that none of the 8 queens are able to atack each other. There are a total o
 # use time library to track how long finding all solutions takes
 import time
 
-# list for all solutions, so we dont waste time printing untill all solutions are found
-total_solutions = []
 # board size
 board_size = 8
+totalSolutions = 0
 
 # This takes the current board and a col, and returns true if a queen is able to be placed
 def place_queen(board, col):
-    
-    global total_solutions
 
+    global timeStart
+    global totalSolutions
     # Bool val. keeps track if a queen has been placed or not
     queens_placed = False
 
     # column is 8 so this is a valid solution
     if col == 8:
-        # add solution
-        total_solutions.append(board)
-        return True
+        # increase solutions found
+        totalSolutions +=1
+        # check for time used to print and remove it
+        timeForPrint = time.time()
+        print('-----------', totalSolutions, '-----------')
+        print_board(board)
+        timeStart = timeStart - (timeForPrint - time.time())
+
+        return True 
 
     # go through every row in the column untila safe place is found
     for row in range(board_size):
@@ -110,18 +115,13 @@ timeStart = time.time()
 totalTime = 0
 # find the solutions
 foundSolutions = place_queen(board,0)
+
 # mark ending time before printing
 totalTime = time.time() - timeStart
 
-if foundSolutions:
-    # if solutions are found print them
-    for board in total_solutions:
-        print_board(board)
-else:
+if foundSolutions == False:
     ("print there are no solutions")
 
-# output the total time it took to find all 92 solutions
-print("The number of solutions is: ", len(total_solutions))
 print("The total time used to find all solutions is: ", totalTime)
 
 
