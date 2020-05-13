@@ -160,7 +160,7 @@ val_acc = History.history['val_accuracy']
 loss = History.history['loss']
 val_loss = History.history['val_loss']
 
-model = load_model('handwritten-digits.h5')
+# model = load_model('handwritten-digits.h5')
 
 #evaluate the model
 test_eval = model.evaluate(testimagearray, test_labels, verbose=1)
