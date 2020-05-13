@@ -53,3 +53,8 @@ acc      val_acc         loss           val_loss
 0.98     0.982           0.0657          0.0165
 0.98     0.981           0.0647          0.0375
 0.981    0.982           0.0627          0.0311
+--------------------------------------------------------
+
+Based on Evaluation:
+Found 9818 correct digits
+Found 182 incorrect digits
